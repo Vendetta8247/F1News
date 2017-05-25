@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_visual_settings"
+        >
+            <CheckBoxPreference
+
+                android:key="pictures_checkbox"
+                android:title="@string/pref_title_download_pics"
+                android:summary="@string/pref_description_download_pics"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_site_list"
+        >
+        <CheckBoxPreference
+
+            android:key="f1news_ru_checkbox"
+            android:title="F1News.ru (RU)"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+
+            android:key="formula_news_com_checkbox"
+            android:title="Formula-news.com (RU)"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+
+            android:key="euronews_checkbox"
+            android:title="Euronews"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+
+            android:key="planetf1_checkbox"
+            android:title="PlanetF1.com (EN)"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+
+            android:key="crash_checkbox"
+            android:title="Crash.net (EN)"
+            android:defaultValue="true" />
+        </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_time_to_choose">
+        <ListPreference
+            android:title="@string/last_news_time_text"
+            android:key="listPref"
+            android:defaultValue="1"
+            android:entries="@array/pref_time_to_download"
+            android:entryValues="@array/listValues" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

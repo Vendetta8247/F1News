@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Formula News</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="title_activity_new_article">Стаття</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="save_btn">Зберегти</string>
+    <string name="share_btn">Поділитися</string>
+    <string name="action_delete">Видалити</string>
+    <string name="loading_text">Сторінка завантажується…</string>
+    <string name="simple_loading_text">Завантаження…</string>
+
+
+
+    <string name="welcome_text">Ласкаво просимо</string>
+    <string name="to_the_formula_app_text">до додатку Formula News</string>
+    <string name="this_tutorial_text">Дана інформація проведе Вас по базових можливостях додатку та навчить їм користуватися. Після цього Ви зможете почати користування.</string>
+    <string name="this_app_is_text">Formula news - це додаток, який допоможе Вам знайти останні новини зі світу професійних перегонів, побачити статистику, а також прочитати біографіі пілотів!</string>
+    <string name="main_menu_tutorial">Це - головна сторінка з картками сайтів. Всередені кожної Ви знайдете останні новини та статті.</string>
+    <string name="news_page_tutorial">Вид зсередини. З цього меню Ви можете прочитати статті чи зберегти їх для подальшого перегляду без доступу до мережі (кнопка зверху).</string>
+    <string name="nav_drawer_text">Ви маєте змогу відкрити навігаційне меню з будь-якої сторінки. Для цього потрібно провести пальцем з лівої частини екрану праворуч.</string>
+    <string name="table_tutorial_text">Меню рейтингу містить поточне положення водія в таблиці та його ім\'я.</string>
+    <string name="driver_tutorial_text">У меню пілотів Ви можете побачити інформацію (біографія та таблиці) по кожному з водіїв поточного сезону.</string>
+    <string name="settings_tutorial_text">Меню налаштувань дозволяє змінювати параметри додатку. Тут Ви можете увімкнути чи вимкнути відображення мініатюр картинок, обрати сайти, а також період завантаження новин.</string>
+    <string name="settings_warning_text">Деякі сайти неможливо налаштувати. Наприклад, Euronews не буде завантажувати картинки (це зроблено задля збереження ресурсів), а також завантажуватиме усі новини одразу (це пов\'язано з повільним оновленням сайту).</string>
+    <string name="article_load_text">Всередині стаття виглядає так. Тут Ви можете відправити другу посилання, а також зберегти статтю в індивідуальному порядку.</string>
+
+
+    <string name="skip_text">Пропуск</string>
+    <string name="next_text">Далі</string>
+    <string name="previous_text">Назад</string>
+    <string name="finish_text">Кінець</string>
+    <string name="delete_all_articles">Видалити усі статті?</string>
+    <string name="yes_text">Так</string>
+    <string name="no_text">Ні</string>
+    <string name="team_text">Команда:</string>
+    <string name="last_news_text">Останні новини:</string>
+    <string name="news_in_total">Всього новин: </string>
+    <string name="no_news_text">Новин немає</string>
+
+    <string name="last_news_time_text">Показувати останні новини за</string>
+
+    <string name="place_string">Місце</string>
+    <string name="driver_string">Пілот</string>
+    <string name="team_string">Команда</string>
+    <string name="points_string">Бали</string>
+
+    <string name="save_articles_period">Зберегти всі статті за</string>
+    <string name="today_text">Сьогодні</string>
+    <string name="two_days_text">2 дні</string>
+    <string name="week_text">Тиждень</string>
+    <string name="all_articles_text">Усі статті</string>
+
+    <string name="main_page_text">Головна</string>
+    <string name="downloaded_articles_text">Завантажені статті</string>
+    <string name="downloaded_articles_text_small"> завантажених статей</string>
+    <string name="rating_text">Рейтинг</string>
+    <string name="pilots_text">Пілоти</string>
+    <string name="settings_text">Налаштування</string>
+
+
+    <color name="color1">#e53935</color>
+    <color name="color2">#212121</color>
+    <color name="textShadow">#bdbdbd</color>
+
+    <string name="title_activity_sites">Formula News</string>
+    <string name="title_activity_ewd">ewd</string>
+    <string name="title_activity_saved_sites">Formula News</string>
+    <string name="title_activity_saved_site_reader">Formula News</string>
+    <string name="title_activity_saved_sites_list">Formula News</string>
+    <string name="title_activity_table">Formula News</string>
+    <string name="title_activity_driver_list">Formula News</string>
+    <string name="title_activity_driver_bio">Formula News</string>
+
+
+
+</resources>

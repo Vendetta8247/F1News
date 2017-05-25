@@ -1,0 +1,29 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_visual_settings">Visuals</string>
+    <string name="pref_site_list">Sites to view</string>
+    <string name="pref_time_to_choose">Loading period</string>
+
+    <string name="pref_title_download_pics">Load pictures</string>
+    <string name="pref_description_download_pics">Download a small picture for every article
+    </string>
+
+    <string-array name="pref_time_to_download">
+        <item>Today</item>
+        <item>2 days</item>
+        <item>Week</item>
+        <item>Month</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ua.com.vendetta8247.f1news.NewArticle">
+    <item android:id="@+id/action_share" android:title="@string/share_btn"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/sharebtn"
+        android:actionProviderClass="android.widget.ShareActionProvider"/>
+    <item android:id="@+id/action_save" android:title="@string/save_btn"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/savebtn"/>
+
+</menu>

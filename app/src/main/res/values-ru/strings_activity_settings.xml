@@ -1,0 +1,29 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_visual_settings">Внешний вид</string>
+    <string name="pref_site_list">Выбор сайтов</string>
+    <string name="pref_time_to_choose">Выбор периода загрузки</string>
+
+    <string name="pref_title_download_pics">Загружать картинки</string>
+    <string name="pref_description_download_pics">Скачивать уменьшенную версию картинки для каждой статьи
+    </string>
+
+    <string-array name="pref_time_to_download">
+        <item>Сегодня</item>
+        <item>2 дня</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

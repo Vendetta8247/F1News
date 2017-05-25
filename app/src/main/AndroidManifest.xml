@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.com.vendetta8247.f1news" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".ContextGetter"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".NewsPage"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".SitesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NewArticle"
+            android:label="@string/title_activity_new_article"
+            android:parentActivityName=".NewsPage" >
+        </activity>
+        <activity
+            android:name=".SitesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SavedSitesActivity"
+            android:label="@string/title_activity_saved_sites"
+            android:launchMode="singleTop"
+            android:parentActivityName=".SavedSitesList" >
+        </activity>
+        <activity
+            android:name=".SavedSiteReader"
+            android:label="@string/title_activity_saved_site_reader"
+            android:parentActivityName=".SavedSitesActivity" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".SavedSitesList"
+            android:label="@string/title_activity_saved_sites_list" >
+        </activity>
+        <activity
+            android:name=".TableActivity"
+            android:label="@string/title_activity_table" >
+        </activity>
+        <activity
+            android:name=".DriverListActivity"
+            android:label="@string/title_activity_driver_list"
+            android:screenOrientation="portrait" >
+>
+        </activity>
+        <activity
+            android:name=".DriverBioActivity"
+            android:parentActivityName=".DriverListActivity"
+            android:label="@string/title_activity_driver_bio" >
+        </activity>
+    </application>
+
+</manifest>

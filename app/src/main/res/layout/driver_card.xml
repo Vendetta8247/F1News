@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/driver_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="2dp"
+
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="0dp"
+    card_view:cardElevation="3dp"
+    card_view:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:id="@+id/driverName"
+                android:textSize="20dp"
+                android:background="#DDFFFFFF"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_gravity="left"/>
+            <TextView
+                android:paddingRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/driverName"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:id="@+id/driverAge"
+                android:textSize="24dp"
+                android:text="30"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_gravity="right"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/driver_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="#050505"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily=""
+            android:text="@string/team_text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/driver_nationality_flag"
+                android:src="@drawable/rus1"/>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/driver_nationality"
+                android:text="@string/simple_loading_text"
+                android:layout_weight="4"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Formula News</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_article">Article</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="save_btn">Save</string>
+    <string name="share_btn">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="loading_text">The page is loading…</string>
+    <string name="simple_loading_text">Loading…</string>
+
+
+    <string name="welcome_text">Welcome</string>
+    <string name="to_the_formula_app_text">to the Formula News app</string>
+    <string name="this_tutorial_text">This tutorial will guide you through the basic information about the app and its capabilities. You\'ll be able to get to work afterwards.</string>
+    <string name="this_app_is_text">Formula news application is a place where you can find all the newest events of racing world, check current ratings and get information about drivers!</string>
+    <string name="main_menu_tutorial">This is the main page with site cards. Inside each site card you will find latest articles.</string>
+    <string name="news_page_tutorial">A view from the inside. From this menu you can read articles or save them for offline viewing (button on top).</string>
+    <string name="nav_drawer_text">You can access navigation drawer from any menu by swiping right from the left edge of the screen.</string>
+    <string name="table_tutorial_text">The ratings menu contains current position of a driver, his name and his team.</string>
+    <string name="driver_tutorial_text">In the driver menu you can view information (bio and tables) for all current drivers.</string>
+    <string name="settings_tutorial_text">Settings menu gives you an opportunity to customise the application. Here you can choose if you\'d like to see small pics by the news, choose what sites you\'d like to view and how many news you\'d like to load.</string>
+    <string name="settings_warning_text">Some of the sites are not customizable. For example, Euronews will not load pictures (it is done to save resources) and will load all articles at a time (due to rare updates).</string>
+    <string name="article_load_text">Inside article looks like this. In here you can share an article with your friends or save it individually.</string>
+
+
+
+    <string name="skip_text">Skip</string>
+    <string name="next_text">Next</string>
+    <string name="previous_text">Previous</string>
+    <string name="finish_text">Finish</string>
+    <string name="delete_all_articles">Delete all articles?</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="team_text">Team:</string>
+    <string name="last_news_text">Last news:</string>
+    <string name="news_in_total">News in total: </string>
+    <string name="no_news_text">No news</string>
+
+    <string name="place_string">Place</string>
+    <string name="driver_string">Driver</string>
+    <string name="team_string">Team</string>
+    <string name="points_string">Points</string>
+
+
+    <string name="save_articles_period">Save all articles for</string>
+    <string name="today_text">Today</string>
+    <string name="two_days_text">2 days</string>
+    <string name="week_text">Week</string>
+    <string name="all_articles_text">All articles</string>
+
+
+    <string name="main_page_text">Main page</string>
+    <string name="downloaded_articles_text">Saved articles</string>
+    <string name="downloaded_articles_text_small"> saved articles</string>
+    <string name="rating_text">Ratings</string>
+    <string name="pilots_text">Drivers</string>
+    <string name="settings_text">Settings</string>
+
+
+    <string name="last_news_time_text">Show news for time period</string>
+
+
+    <color name="color1">#e53935</color>
+    <color name="color2">#212121</color>
+    <color name="textShadow">#bdbdbd</color>
+
+    <string name="title_activity_sites">Formula News</string>
+    <string name="title_activity_ewd">ewd</string>
+    <string name="title_activity_saved_sites">Formula News</string>
+    <string name="title_activity_saved_site_reader">Formula News</string>
+    <string name="title_activity_saved_sites_list">Formula News</string>
+    <string name="title_activity_table">Formula News</string>
+    <string name="title_activity_driver_list">Formula News</string>
+    <string name="title_activity_driver_bio">Formula News</string>
+
+
+
+</resources>

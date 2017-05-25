@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Formula News</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_new_article">Статья</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="save_btn">Сохранить</string>
+    <string name="share_btn">Поделиться</string>
+    <string name="action_delete">Удалить</string>
+    <string name="loading_text">Страница загружается…</string>
+    <string name="simple_loading_text">Загрузка…</string>
+
+
+
+    <string name="welcome_text">Добро пожаловать</string>
+    <string name="to_the_formula_app_text">в приложение Formula News</string>
+    <string name="this_tutorial_text">Это руководство проведет Вас по базовой информации о приложении и его возможностях. После этого Вы сможете приступить к использованию.</string>
+    <string name="this_app_is_text">Formula news - это приложение, где Вы можете найти последние новости гоночного мира, узнать рейтинги, а также прочитать биографию каждого пилота!</string>
+    <string name="main_menu_tutorial">Это - главная страница с карточками сайтов. Внутри каждой Вы найдете последние статьи и новости.</string>
+    <string name="news_page_tutorial">Вид изнутри. Из этого меню Вы можете прочитать статьи либо сохранить их для последующего просмотра без доступа к сети (кнопка сверху).</string>
+    <string name="nav_drawer_text">Вы можете попасть в навигационное меню из любого окна, проведя пальцем от левой части экрана вправо.</string>
+    <string name="table_tutorial_text">Меню рейтингов содержит текущее положение водителя в таблице, его имя, команду и очки.</string>
+    <string name="driver_tutorial_text">В меню пилотов Вы можете просмотреть информацию (биографию и таблицы) по всем водителям текущего сезона.</string>
+    <string name="settings_tutorial_text">Меню настроек дает возможность изменять параметры приложения. Здесь Вы можете включить или выключить отображение картинок, выбрать сайты для просмотра новостей, а также период их загрузки.</string>
+    <string name="settings_warning_text">Некоторые сайты нельзя настроить. Например, Euronews не будет загружать картинки (это сделано для увеличения производительности), а также будет показывать сразу все доступные статьи (это связано с редким обновлением сайта).</string>
+    <string name="article_load_text">Внутри статья выглядит так. Здесь Вы можете отправить другу ссылку, а также сохранить статью в индивидуальном порядке.</string>
+
+
+    <string name="skip_text">Пропуск</string>
+    <string name="next_text">Далее</string>
+    <string name="previous_text">Назад</string>
+    <string name="finish_text">Конец</string>
+    <string name="delete_all_articles">Удалить все статьи?</string>
+    <string name="yes_text">Да</string>
+    <string name="no_text">Нет</string>
+    <string name="team_text">Команда:</string>
+    <string name="last_news_text">Последние новости:</string>
+    <string name="news_in_total">Всего новостей: </string>
+    <string name="no_news_text">Новостей нет</string>
+
+    <string name="last_news_time_text">Показывать последние новости за</string>
+
+    <string name="place_string">Место</string>
+    <string name="driver_string">Пилот</string>
+    <string name="team_string">Команда</string>
+    <string name="points_string">Очки</string>
+
+    <string name="save_articles_period">Сохранить все статьи за</string>
+    <string name="today_text">Сегодня</string>
+    <string name="two_days_text">2 дня</string>
+    <string name="week_text">Неделю</string>
+    <string name="all_articles_text">Все статьи</string>
+
+    <string name="main_page_text">Главная</string>
+    <string name="downloaded_articles_text">Скачанные статьи</string>
+    <string name="downloaded_articles_text_small"> скачанных статей</string>
+    <string name="rating_text">Рейтинг</string>
+    <string name="pilots_text">Пилоты</string>
+    <string name="settings_text">Настройки</string>
+
+
+
+
+    <color name="color1">#e53935</color>
+    <color name="color2">#212121</color>
+    <color name="textShadow">#bdbdbd</color>
+
+    <string name="title_activity_sites">Formula News</string>
+    <string name="title_activity_ewd">ewd</string>
+    <string name="title_activity_saved_sites">Formula News</string>
+    <string name="title_activity_saved_site_reader">Formula News</string>
+    <string name="title_activity_saved_sites_list">Formula News</string>
+    <string name="title_activity_table">Formula News</string>
+    <string name="title_activity_driver_list">Formula News</string>
+    <string name="title_activity_driver_bio">Formula News</string>
+
+
+
+</resources>
